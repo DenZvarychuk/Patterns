@@ -1,4 +1,4 @@
-package org.patterns.sandbox;
+package org.patterns.sandbox.duck;
 
 public abstract class Duck {
 
@@ -9,7 +9,4 @@ public abstract class Duck {
         System.out.println("This is " + duckType);
     }
 
-    protected void display(String duckType) {
-        System.out.println("This is " + duckType);
-    }
 }
