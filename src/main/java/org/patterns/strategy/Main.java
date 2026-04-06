@@ -1,19 +1,19 @@
-package org.patterns.sandbox;
+package org.patterns.strategy;
 
-import org.patterns.sandbox.duck.*;
+import org.patterns.strategy.duck.*;
 
 public class Main {
     public static void main(String[] args) {
-        RedheadDuck redheadDuck = new RedheadDuck();
+
+        DecoyDuck decoyDuck = new DecoyDuck();
         MallardDuck mallardDuck = new MallardDuck();
         RubberDuck rubberDuck = new RubberDuck();
-        DecoyDuck decoyDuck = new DecoyDuck();
+        RedheadDuck redheadDuck = new RedheadDuck();
 
         System.out.println("- - - - - - - - - ");
         System.out.println(" - Redhead Duck - ");
 
         redheadDuck.display();
-        redheadDuck.quack();
         redheadDuck.swim();
         redheadDuck.fly();
 
@@ -21,14 +21,12 @@ public class Main {
         System.out.println(" - Rubber Duck - ");
 
         rubberDuck.display();
-        rubberDuck.quack();
         rubberDuck.swim();
 
         System.out.println("\n - - - - - - - - - ");
         System.out.println(" - Mallard Duck - ");
 
         mallardDuck.display();
-        mallardDuck.quack();
         mallardDuck.swim();
         mallardDuck.fly();
 
@@ -36,7 +34,6 @@ public class Main {
         System.out.println(" - Decoy Duck - ");
 
         decoyDuck.display(); //display() method is not overrated
-        decoyDuck.swim();
 
     }
 }

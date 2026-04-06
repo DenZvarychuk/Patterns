@@ -1,10 +1,6 @@
-package org.patterns.sandbox.duck;
+package org.patterns.strategy.duck;
 
-import org.patterns.sandbox.ability.Flyiable;
-import org.patterns.sandbox.ability.Quackable;
-import org.patterns.sandbox.ability.Swimmable;
-
-public class MallardDuck extends Duck implements Quackable, Swimmable, Flyiable {
+public class MallardDuck extends Duck {
 
     String duckType = "mallard Duck";
     String quack = "quack";
@@ -12,11 +8,6 @@ public class MallardDuck extends Duck implements Quackable, Swimmable, Flyiable 
     @Override
     public void display() {
         System.out.println("This is " + duckType);
-    }
-
-    @Override
-    public void quack() {
-        System.out.println(quack);
     }
 
     public void swim(){

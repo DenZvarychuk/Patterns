@@ -1,6 +1,8 @@
-package org.patterns.sandbox.duck;
+package org.patterns.strategy.duck;
 
-public abstract class Duck {
+import org.patterns.strategy.ability.FlyBehavior;
+
+public abstract class Duck implements FlyBehavior {
 
     private String duckType = "abstract Duck";
     private String quak = "quak";
