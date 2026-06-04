@@ -1,6 +1,4 @@
-package org.patterns.builder.builderJavaRush.transport;
-
-import org.patterns.builder.builderJavaRush.creators.CourierTransport;
+package org.patterns.factory.factoryGuru.transport;
 
 public class Car implements CourierTransport {
     @Override

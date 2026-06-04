@@ -1,6 +1,6 @@
-package org.patterns.builder.builderJavaRush;
+package org.patterns.factory.factoryGuru;
 
-import org.patterns.builder.builderJavaRush.creators.CourierTransport;
+import org.patterns.factory.factoryGuru.transport.CourierTransport;
 
 public class Deliver {
     private String address;

@@ -6,4 +6,8 @@ public class DecoyDuck extends Duck{
 
     String duckType = "decoy Duck";
 
+    @Override
+    public void fly() {
+
+    }
 }

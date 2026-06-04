@@ -1,4 +1,4 @@
-package org.patterns.builder.builderJavaRush.creators;
+package org.patterns.factory.factoryGuru.transport;
 
 public interface CourierTransport {
     void deliver();

@@ -13,4 +13,9 @@ public class RubberDuck extends Duck  {
     public void swim(){
         System.out.println(duckType + " swimming");
     }
+
+    @Override
+    public void fly() {
+
+    }
 }

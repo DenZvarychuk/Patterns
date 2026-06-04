@@ -1,8 +1,8 @@
-package org.patterns.builder.builderJavaRush;
+package org.patterns.factory.factoryGuru;
 
-import org.patterns.builder.builderJavaRush.creators.CarCreator;
-import org.patterns.builder.builderJavaRush.creators.CourierTransport;
-import org.patterns.builder.builderJavaRush.creators.TruckCreator;
+import org.patterns.factory.factoryGuru.creators.CarCreator;
+import org.patterns.factory.factoryGuru.transport.CourierTransport;
+import org.patterns.factory.factoryGuru.creators.TruckCreator;
 
 public class Main {
     public static void main(String[] args) {
