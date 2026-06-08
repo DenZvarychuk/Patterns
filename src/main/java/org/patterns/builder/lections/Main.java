@@ -1,4 +1,4 @@
-package org.patterns.builder.builderLections;
+package org.patterns.builder.lections;
 
 public class Main {
 

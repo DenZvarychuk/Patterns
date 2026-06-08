@@ -1,4 +1,4 @@
-package org.patterns.prototype.prototypeLections;
+package org.patterns.prototype.lections;
 
 public class Main {
 

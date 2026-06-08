@@ -1,4 +1,4 @@
-package org.patterns.singleton.singletonLections;
+package org.patterns.singleton.lections;
 
 // not ok for multithreading
 // heavy

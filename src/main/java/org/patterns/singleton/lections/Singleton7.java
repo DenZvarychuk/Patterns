@@ -1,4 +1,4 @@
-package org.patterns.singleton.singletonLections;
+package org.patterns.singleton.lections;
 
 // can't use inheritance and can't be inherited
 // can implement interfaces

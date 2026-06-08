@@ -1,4 +1,4 @@
-package org.patterns.prototype.prototypeLections;
+package org.patterns.prototype.lections;
 
 // new String(autoh)
 public class Referat implements Cloneable {

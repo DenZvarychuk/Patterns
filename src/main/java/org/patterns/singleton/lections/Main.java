@@ -1,4 +1,4 @@
-package org.patterns.singleton.singletonLections;
+package org.patterns.singleton.lections;
 
 // Singleton pattern - Main class for testing different singleton implementations
 // Singleton - antipattern?

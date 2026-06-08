@@ -1,4 +1,4 @@
-package org.patterns.singleton.singletonLections;
+package org.patterns.singleton.lections;
 
 // Lazy initialisation
 // 1 time for synchronised, other times check instance
